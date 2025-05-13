@@ -2,9 +2,7 @@ name: Ping URL Daily
 
 on:
   schedule:
-    # - cron: '0 0 * * *' 
     - cron: '*/2 * * * *'
-  workflow_dispatch:     # (Optional) allows manual trigger
 
 jobs:
   ping:
